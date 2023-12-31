@@ -15,13 +15,9 @@ st.write("""
 Explore different classifiers
 """)
 
-st.write("Please adjust the sliders to select the Dataset and Classifier:")
+dataset_name = st.sidebar.selectbox("Select Dataset", ["Iris", "Breast Cancer", "Wine dataset"])
 
-dataset_name = st.sidebar.selectbox("Select Dataset", ["Iris", "Breast Cancer", "Wine dataset"], help="👈 Click and adjust")
-classifier_name = st.sidebar.selectbox("Select Classifier", ["KNN", "SVM", "Random Forest"], help="👈 Click and adjust")
-
-if st.sidebar.button("Run Classification"):
-    st.write(f"Running classification for {classifier_name} on {dataset_name}...")
+classifier_name = st.sidebar.selectbox("Select Classifier", ["KNN", "SVM", "Random Forest"])
 
 def get_dataset(dataset_name):
     if dataset_name == "Iris":
