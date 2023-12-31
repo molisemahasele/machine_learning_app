@@ -1,15 +1,15 @@
-Multi-Class Classification App with SVM, Random Forest, and KNN
+# Multi-Class Classification App with SVM, Random Forest, and KNN
 
 This Streamlit application demonstrates multi-class classification on popular datasets using Support Vector Machines (SVM), Random Forest, and K-Nearest Neighbors (KNN) algorithms.
 Overview
 
-The app provides a user-friendly interface to explore and compare the performance of three different classification algorithms on the following datasets:
+# The app provides a user-friendly interface to explore and compare the performance of three different classification algorithms on the following datasets:
 
     Breast Cancer Dataset
     Iris Dataset
     Wine Dataset
 
-Features
+# Features
 
     Dataset Selection: Choose from the available datasets to perform classification.
     Algorithm Selection: Select the desired algorithm (SVM, Random Forest, KNN).
@@ -36,7 +36,7 @@ Run the App
 
 bash
 
-    streamlit run app.py
+    streamlit run main.py
 
     Using the App
         Open the app in your web browser.
@@ -44,19 +44,19 @@ bash
         Adjust hyperparameters if desired.
         Explore the dataset visuals and classification results.
 
-Technologies Used
+# Technologies Used
 
     Python
     Streamlit
     Scikit-learn
 
-File Structure
+# File Structure
 
-    app.py: Main file containing the Streamlit application code.
+    main.py: Main file containing the Streamlit application code.
     README.md: Documentation file (you're reading it!).
     requirements.txt: List of Python dependencies.
 
-Acknowledgements
+# Acknowledgements
 
     Datasets used in this application:
         UCI Machine Learning Repository
@@ -64,7 +64,7 @@ Acknowledgements
         Scikit-learn documentation
         Streamlit documentation
 
-Future Improvements
+# Future Improvements
 
     Incorporate more datasets for classification.
     Implement additional classification algorithms for comparison.
