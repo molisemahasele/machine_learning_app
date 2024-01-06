@@ -70,4 +70,4 @@ bash
     Implement additional classification algorithms for comparison.
     Enhance visualizations and interactivity within the app.
 
-Feel free to contribute, report issues, or suggest enhancements. Pull requests are welcome!
+Feel free to contribute, report issues, or suggest enhancements. Pull requests are welcome
